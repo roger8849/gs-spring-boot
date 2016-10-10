@@ -1,4 +1,4 @@
-package activemq;
+package com.wfs.poc.old;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 

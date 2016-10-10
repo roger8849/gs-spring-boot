@@ -1,4 +1,4 @@
-package hello;
+package com.wfs.poc;
 
 import java.util.Arrays;
 
