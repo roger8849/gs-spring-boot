@@ -12,7 +12,12 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.1.RELEASE</version>
 	</parent>
-
+	
+	<properties>
+		<java.version>1.8</java.version>
+		<springframework.version>4.3.0.RELEASE</springframework.version>
+	</properties>
+	
 	<repositories>
 		<repository>
 			<id>jboss</id>
@@ -39,21 +44,27 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>javax.jms</groupId> -->
+<!-- 			<artifactId>jms</artifactId> -->
+<!-- 			<version>1.1</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.activemq</groupId> -->
+<!-- 			<artifactId>activemq-core</artifactId> -->
+<!-- 			<version>5.2.0</version> -->
+<!-- 		</dependency> -->
 		<dependency>
-			<groupId>javax.jms</groupId>
-			<artifactId>jms</artifactId>
-			<version>1.1</version>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jms</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
-			<artifactId>activemq-core</artifactId>
-			<version>5.2.0</version>
+			<artifactId>activemq-spring</artifactId>
 		</dependency>
 	</dependencies>
 
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
+	
 
 
 	<build>

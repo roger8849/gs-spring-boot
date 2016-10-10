@@ -14,7 +14,12 @@ import javax.jms.Session;
 import javax.jms.TextMessage;
 
 /**
- * * Hello world!
+ * This is just a Hello world class to send a message to an ActiveMQ auto-generated 
+ * queue. Just for Reference
+ * 
+ * @deprecated Use {@link Application} instead.
+ * @author roger.ramirez
+ *
  */
 public class App {
 	public static void main(String[] args) throws Exception {
