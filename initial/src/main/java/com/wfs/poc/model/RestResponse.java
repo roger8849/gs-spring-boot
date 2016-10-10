@@ -10,6 +10,15 @@ public class RestResponse implements Serializable {
 	private String message;
 	private String eMessage;
 	
+	public RestResponse() {
+		super();
+	}
+	
+	public RestResponse(String status, String message, String eMessage) {
+		this.status = status;
+		this.message = message;
+		this.eMessage = eMessage;
+	}
 	public String getStatus() {
 		return status;
 	}
@@ -28,10 +37,5 @@ public class RestResponse implements Serializable {
 	public void seteMessage(String eMessage) {
 		this.eMessage = eMessage;
 	}
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-	
-	
 	
 }
